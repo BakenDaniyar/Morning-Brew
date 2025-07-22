@@ -555,9 +555,9 @@ font-weight:400;
   
   .cart {
     margin: 0 !important;
-    width: calc(50% - 10px);
+    width: calc(70% - 10px);
     height:250px;
-    min-width: 160px;
+    min-width: 180px;
   }
   
   .cart-logo {
@@ -620,22 +620,22 @@ font-weight:400;
   }
   
   .container {
-    width:500px;
-     height:457px;
+    width:calc(100% - 50px);
+     height:357px;
     padding: 40px 20px;
   }
   
   .feedback {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.6;
     margin-top:-30px;
   }
   
   .feedback-name {
-    font-size: 22px;
+    font-size: 16px;
   }
 .big-brown-utir{
-font-size: 60px;
+font-size: 40px;
 }
 .up{
 transform: rotate(180deg);
