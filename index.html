@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morning Brew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="header-logo">Morning Brew</div>
+            <div class="header-texts">
+                <a href="#about" class="header-text">О нас </a>
+                <a href="#menu" class="header-text">Меню </a>
+                <a href="#feedback" class="header-text">Отзывы </a>
+                <a href="#footer" class="header-text">Контакты</a>
+            </div>
+        </header>
+
+        <div class="main-texts">
+            <div class="main-big-text">Настоящий кофе,<br> приготовленный с <br><span class="orange">любовью</span></div>
+
+            <div class="main-text medium">Мы обжариваем зёрна вручную и <br>
+                варим кофе по авторским рецептам. <br>
+                Попробуйте наш фирменный <br>
+                эспрессо!
+            </div>
+
+            <a href="#menu" class="main-btn">Открыть меню</a>
+        </div>
+    </main>
+
+    <section class="about-me" id="about">
+        <div class="flex-row">
+            <div class="about-texts">
+                <div class="about-text big">Почему мы?</div>
+
+                <div class="about-black-text small">Мы не просто варим кофе — мы создаём ритуал. <br>
+                    Каждая чашка у нас — это сочетание мастерства, <br>
+                    свежих зёрен и заботы о деталях.Кофе, который<br>
+                    запоминается. Каждый день.
+                </div>
+
+                <div class="about-btn" id="aboutbtn">Подробнее <img src="img/triangle.png" alt="triangle" class="triangle" id="triangle" ></div>
+            </div>
+            <img src="img/big-coffee.png" alt="Bigcoffee" class="bigcoffee">
+        </div>
+
+        <div class="all-carts" id="allcarts">
+            <div class="cart1 cart">
+                <img src="img/coffee.png" alt="кофейное зерно" class="cart-logo">
+                <div class="bold-brown-text">Своя обжарка</div>
+                <div class="cart-text small">Обжариваем зерна каждую  неделю</div>
+            </div>
+
+            <div class="cart2 cart">
+                <img src="img/eco.png" alt="Eco" class="cart-logo">
+                <div class="bold-brown-text">Эко-подход</div>
+                <div class="cart-text small">Используем  биоразлагаемые стаканы</div>
+            </div>
+
+            <div class="cart3 cart">
+                <img src="img/xp.png" alt="xp" class="cart-logo">
+                <div class="bold-brown-text">Опыт</div>
+                <div class="cart-text small">10 лет варим идеальный  эспрессо</div>
+            </div>
+
+            <div class="cart4 cart">
+                <img src="img/gift.png" alt="gift" class="cart-logo">
+                <div class="bold-brown-text">Бонусная система</div>
+                <div class="cart-text small">За каждые 5 покупок   бесплатный раф</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="biger-text">Наше Меню</div>
+        <div class="options">
+            <a href="#" class="otion" data-category="coffee">Кофе</a>
+            <a href="#" class="otion" data-category="dessert">Десерты</a>
+            <a href="#" class="otion" data-category="breakfast">Завтраки</a>
+            <a href="#" class="otion" data-category="drinks">Напитки</a>
+        </div>
+
+        <article class="grid-menu"id="menu-container">
+            <div class="menu-cart">
+                <img src="img/capuchino.png" alt="capuchino" class="cart-img">
+                <div class="cart-name">Капучино</div>
+                <div class="cart-undername">Эспрессо, молоко и воздушная пенка</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 200₸</div>
+                    <div class="gramm">200 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/espresso.png" alt="espresso" class="cart-img">
+                <div class="cart-name">Эспрессо</div>
+                <div class="cart-undername">Крепкий черный кофе с густой <br> пенкой</div>
+                <div class="price-and-gramm">
+                    <div class="price">800₸</div>
+                    <div class="gramm">30 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/americano.png" alt="amerikano" class="cart-img">
+                <div class="cart-name">Американо</div>
+                <div class="cart-undername">Эспрессо с добавлением горячей <br> воды</div>
+                <div class="price-and-gramm">
+                    <div class="price">900₸</div>
+                    <div class="gramm">180 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/latte.png" alt="latte" class="cart-img">
+                <div class="cart-name">Латте</div>
+                <div class="cart-undername">Двойной эспрессо с молоком и <br> нежной пеной</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 300₸</div>
+                    <div class="gramm">250 мл</div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="menu-cart">
+                <img src="img/raf.png" alt="raf" class="cart-img">
+                <div class="cart-name">Раф</div>
+                <div class="cart-undername">Кофе с ванильным сиропом и <br> взбитыми сливками</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 500₸</div>
+                    <div class="gramm">220 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/flatwhite.png" alt="fletwhite" class="cart-img">
+                <div class="cart-name">Флэт Уайт</div>
+                <div class="cart-undername">Двойной эспрессо с бархатистым <br> молоком</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 400₸</div>
+                    <div class="gramm">180 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/machiato.png" alt="machiato" class="cart-img">
+                <div class="cart-name">Карамельный макиато</div>
+                <div class="cart-undername">Эспрессо, молоко, карамельный <br> сироп</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 600₸</div>
+                    <div class="gramm">250 мл</div>
+                </div>
+            </div>
+
+            <div class="menu-cart">
+                <img src="img/vostok.png" alt="vostok" class="cart-img">
+                <div class="cart-name">Кофе по-восточному</div>
+                <div class="cart-undername">В турке с кардамоном и корицей</div>
+                <div class="price-and-gramm">
+                    <div class="price">1 000₸</div>
+                    <div class="gramm">150 мл</div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="feedback-container" id="feedback">
+        <div class="biger-text">Отзывы</div>
+        <div class="container">
+        <div class="big-brown-utir up">,,</div>
+        <div class="feedback">Кофе здесь — как утренний ритуал. Особенно люблю их капучино с  корицей: <br> идеальная пенка и баланс вкуса. А круассаны просто божественные —  <br>хрустящие снаружи и мягкие внутри. Уже рекомендовала друзьям!</div>
+        <div class="big-brown-utir down">,,</div>
+        <div class="left-right-btn">
+
+        <div class="left"><img src="img/leftbtn.png" alt="leftbtn" class="left-btn" id="leftbtn"></div>
+        <div class="right"><img src="img/rightbtn.png" alt="rightbtn" class="right-btn" id="rightbtn"></div>
+</div>
+        <div class="feedback-name" id="feedback-name">Анна, 28 лет</div>
+        <div class="stars"><img src="img/stars.png" alt="stars" class="five-stars" id="stars"></div>
+        </div>
+    </section>
+
+    <footer id="footer">
+         <div class="all-category">
+        <div class="name-site">Morning Brew</div>
+
+        <div class="category">
+            <div class="footer-categroy-name"><img src="img/telephone.png" alt="phone" class="icon-footer">Телефон</div>
+            <div class="footer-text">+7 (777) 777-77-77</div>
+        </div>
+        <div class="category">
+            <div class="footer-categroy-name"><img src="img/clock.png" alt="clock" class="icon-footer">Часы работы</div>
+            <div class="footer-text">Пн-Пт: 8:00–20:00 <br> Сб-Вс: 9:00–22:00</div>
+        </div>
+         <div class="category">
+            <div class="footer-categroy-name"><img src="img/geo.png" alt="geo" class="icon-footer">ул. Кофейная, 15</div>
+            <div class="footer-text">(пересечение с ул. Шоколадная,<br> рядом с парком «Коктал»)</div>
+        </div>
+        <div class="category">
+            <div class="footer-categroy-name"><img src="img/instagram.png" alt="instagram" class="icon-footer">Соцсети</div>
+            <div class="footer-text">Instagram: @morningbrew_astana</div>
+        </div>
+        <div class="category">
+            <div class="footer-categroy-name"><img src="img/email.png" alt="email" class="icon-footer">Почта</div>
+            <div class="footer-text">info@morningbrew.kz</div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+</html>

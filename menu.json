@@ -1,0 +1,151 @@
+{"coffee":[
+    {
+        "img":"img/capuchino.png",
+        "name":"Капучино",
+        "description":"Эспрессо, молоко и воздушная пенка",
+        "price":"1 200₸",
+        "size":"200 мл"
+    },
+    {
+        "img":"img/espresso.png",
+        "name":"Эспрессо",
+        "description":"Крепкий черный кофе с густой <br> пенкой",
+        "price":"800₸",
+        "size":"30 мл"
+    },
+    {
+        "img":"img/americano.png",
+        "name":"Американо",
+        "description":"Эспрессо с добавлением горячей <br> воды",
+        "price":"900₸",
+        "size":"180 мл"
+    },
+    {
+        "img":"img/latte.png",
+        "name":"Латте",
+        "description":"Двойной эспрессо с молоком и <br> нежной пеной",
+        "price":"1 300₸",
+        "size":"250 мл"
+    },
+    {
+        "img":"img/raf.png",
+        "name":"Раф",
+        "description":"Кофе с ванильным сиропом и <br> взбитыми сливками",
+        "price":"1 500₸",
+        "size":"220 мл"
+    },
+    {
+        "img":"img/flatwhite.png",
+        "name":"Флэт Уайт",
+        "description":"Двойной эспрессо с бархатистым <br> молоком",
+        "price":"1 400₸",
+        "size":"180 мл"
+    },
+    {
+        "img":"img/machiato.png",
+        "name":"Карамельный макиато",
+        "description":"Эспрессо, молоко, карамельный <br> сироп",
+        "price":"1 600₸",
+        "size":"250 мл"
+    },
+    {
+        "img":"img/vostok.png",
+        "name":"Кофе по-восточному",
+        "description":"В турке с кардамоном и корицей",
+        "price":"1 000₸",
+        "size":"150 мл"
+    }
+],
+"dessert":[
+    {
+        "img":"img/tiramisu.png",
+        "name":"Тирамису",
+        "description":"Классический итальянский десерт",
+        "price":"2 000₸",
+        "size":"150 г"
+    },
+    {
+        "img":"img/cheescake.png",
+        "name":"Чизкейк",
+        "description":"Сливочный с ягодным топпингом",
+        "price":"1 800₸",
+        "size":"120 г"
+    },
+    {
+        "img":"img/cruasan.png",
+        "name":"Круассан",
+        "description":"Свежая выпечка с шоколадом или <br> джемом",
+        "price":"1 200₸",
+        "size":"80 г"
+    },
+    {
+        "img":"img/panakotta.png",
+        "name":"Панна котта",
+        "description":"Ванильный десерт с ягодным соусом",
+        "price":"1 500₸",
+        "size":"100 г"
+    }
+],
+"breakfast":[
+    {
+        "img":"img/zavtrak.png",
+        "name":"Английский завтрак",
+        "description":"Яичница, говяжий бекон,фасоль,<br> грибы, тосты",
+        "price":"3 500₸",
+        "size":"350 г"
+    },
+    {
+        "img":"img/yogurt.png",
+        "name":"Гранола с йогуртом",
+        "description":"Домашняя гранола, греческий<br> йогурт, мёд, ягоды",
+        "price":"2 200₸",
+        "size":"250 г"
+    },
+    {
+        "img":"img/avocado.png",
+        "name":"Авокадо-тост ",
+        "description":"Цельнозерновой хлеб, авокадо, яйцо<br> пашот",
+        "price":"2 800₸",
+        "size":"200 г"
+    },
+    {
+        "img":"img/omlet.png",
+        "name":"Омлет с овощами",
+        "description":"Свежие овощи, сыр, зелень",
+        "price":"2 500₸",
+        "size":"250 г"
+    }
+],
+"drinks":[
+    {
+        "img":"img/matcha.png",
+        "name":"Матча латте",
+        "description":"Зеленый чай матча с молоком",
+        "price":"1 800₸",
+        "size":"250 мл"
+    },
+    {
+        "img":"img/hotchocload.png",
+        "name":"Горячий шоколад",
+        "description":"Густой шоколад с молоком и<br> зефиром",
+        "price":"1 500₸",
+        "size":"200 мл"
+    },
+    {
+        "img":"img/limonad.png",
+        "name":"Лимонад",
+        "description":"Домашний с мятой, лаймом и<br> имбирём",
+        "price":"1 200₸",
+        "size":"300 мл"
+    },
+    {
+        "img":"img/mors.png",
+        "name":"Морс",
+        "description":"Облепиховый или смородиновый",
+        "price":"1 000₸",
+        "size":"300 мл"
+    }
+]
+}
+
+
